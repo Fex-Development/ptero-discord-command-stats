@@ -1,0 +1,7 @@
+{
+  "token": "", // Ur discord bot token.
+  "gid": "", // Ur discord server id.
+  "appid": "", // Ur discord bot application id.
+  "url": "", // Ur pterodactyl panel url example: https://example.com
+  "api": "" // Ur pterodactyl panel api:
+}
