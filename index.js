@@ -2,6 +2,7 @@ const { Client, Intents } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const axios = require('axios');
+const config = require('./config.json');
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 const rest = new REST({ version: '9' }).setToken(`${config.token}`);
