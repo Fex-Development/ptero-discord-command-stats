@@ -1,2 +1,3 @@
-# ptero-discord-command-stats
-Run /node &lt;nodename> and get the stats of the node
+# Pterodactyl discord stats bot.
+Run /node <nodename> and get the stats of the node.
+I really dont know how the new discord.js works, so help me by reporting bugs.
