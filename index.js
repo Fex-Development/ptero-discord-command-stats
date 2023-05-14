@@ -26,7 +26,7 @@ client.on('interactionCreate', async interaction => {
     try {
         const response = await axios.get(url, {
             headers: {
-                'Authorization': `Bearer ${api}`,
+                'Authorization': `Bearer ${config.api}`,
                 'Content-Type': 'application/json',
                 'Accept': 'Application/vnd.pterodactyl.v1+json',
             },
