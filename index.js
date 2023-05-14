@@ -21,7 +21,7 @@ client.on('interactionCreate', async interaction => {
     }
     const nodeName = mention.name;
 
-    const url = `https://${url}/api/application/nodes/${nodeName}/utilization`;
+    const url = `https://${config.url}/api/application/nodes/${nodeName}/utilization`;
 
     try {
         const response = await axios.get(url, {
