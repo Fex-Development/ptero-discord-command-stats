@@ -21,10 +21,8 @@ client.on('interactionCreate', async interaction => {
     }
     const nodeName = mention.name;
 
-    const url = `https://${config.url}/api/application/nodes/${nodeName}/utilization`;
-
     try {
-        const response = await axios.get(url, {
+        const response = await axios.get(`${config.url}api/application/nodes/${nodeName}/utilization`, {
             headers: {
                 'Authorization': `Bearer ${config.api}`,
                 'Content-Type': 'application/json',
